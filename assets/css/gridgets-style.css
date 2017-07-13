@@ -1,0 +1,151 @@
+.gridgets-before-content-wrapper {
+	overflow: hidden;
+}
+.gridgets-before-content-wrapper,
+.gridgets-before-content-inner-wrapper {
+	position: relative;
+}
+.gridgets-content-container {
+	margin: 0 auto;
+}
+.gridget-background-image {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	overflow: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gridget-wrapper {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	width: 100%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.gridget-2-cols-wrapper .gridget-wrapper {
+	width: 50%;
+}
+.gridget-3-cols-wrapper .gridget-wrapper {
+	width: 33.333333333%;
+}
+.gridget-4-cols-wrapper .gridget-wrapper {
+	width: 25%;
+}
+.gridget-5-cols-wrapper .gridget-wrapper {
+	width: 20%;
+}
+.gridget-6-cols-wrapper .gridget-wrapper {
+	width: 16.666666667%;
+}
+.gridget-two-thirds-one-third-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 33.333333333%;
+}
+.gridget-two-thirds-one-third-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 66.666666667%;
+	clear: left;
+}
+.gridget-one-third-two-thirds-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 66.666666667%;
+}
+.gridget-one-third-two-thirds-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 33.333333333%;
+	clear: left;
+}
+.gridget-three-fourths-one-fourth-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 25%;
+}
+.gridget-three-fourths-one-fourth-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 75%;
+	clear: left;
+}
+.gridget-one-fourth-three-fourths-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 75%;
+}
+.gridget-one-fourth-three-fourths-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 25%;
+	clear: left;
+}
+.gridget-four-fifths-one-fifth-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 20%;
+}
+.gridget-four-fifths-one-fifth-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 80%;
+	clear: left;
+}
+.gridget-one-fifth-four-fifths-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 80%;
+}
+.gridget-one-fifth-four-fifths-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 20%;
+	clear: left;
+}
+.gridget-five-sixths-one-sixth-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 16.66666667%;
+}
+.gridget-five-sixths-one-sixth-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 83.33333333%;
+	clear: left;
+}
+.gridget-one-sixth-five-sixths-wrapper .gridget-wrapper:nth-child(2n) {
+	width: 83.33333333%;
+}
+.gridget-one-sixth-five-sixths-wrapper .gridget-wrapper:nth-child(2n+1) {
+	width: 16.66666667%;
+	clear: left;
+}
+.gridget-1-col-wrapper .gridget-wrapper,
+.gridget-2-cols-wrapper .gridget-wrapper:nth-child(2n+1),
+.gridget-3-cols-wrapper .gridget-wrapper:nth-child(3n+1),
+.gridget-4-cols-wrapper .gridget-wrapper:nth-child(4n+1),
+.gridget-5-cols-wrapper .gridget-wrapper:nth-child(5n+1),
+.gridget-5-cols-wrapper .gridget-wrapper:nth-child(6n+1) {
+	clear: left;
+}
+.ctws-sidebar-wrapper:before,
+.ctws-sidebar-wrapper:after,
+.gridgets-before-content-wrapper:before,
+.gridgets-before-content-wrapper:after,
+.gridgets-before-content-inner-wrapper:before,
+.gridgets-before-content-inner-wrapper:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+.ctws-sidebar-wrapper:after,
+.gridgets-before-content-wrapper:after,
+.gridgets-before-content-inner-wrapper:after {
+	clear: both;
+}
+.flexme .gridgets-before-content-inner-wrapper {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+.gridget-wrapper .aligncenter,
+.gridget-wrapper p:last-child,
+.gridget-wrapper h1:last-child,
+.gridget-wrapper h2:last-child,
+.gridget-wrapper h3:last-child,
+.gridget-wrapper h4:last-child,
+.gridget-wrapper h5:last-child,
+.gridget-wrapper h6:last-child {
+	margin-bottom: 0;
+}
+.usebootstrap .gridget-wrapper {
+	padding: 0 15px;
+}
+.container .gridgets-before-content-wrapper:not(.gridgets-full-width) .gridgets-content-container.container {
+	padding-left: 0;
+	padding-right: 0;
+}

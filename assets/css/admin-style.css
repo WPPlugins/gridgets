@@ -1,0 +1,130 @@
+label.gridget-label,
+.sidebar-gridget label {
+	display: block;
+}
+.gridgets_metafield {
+	margin: 1em 0;
+}
+.gridgets-add-area {
+	position: relative;
+}
+.gridgets-add-area.updating #gridgets-before-content {
+	opacity: 0.5;
+}
+.gridgets-spinner-wrapper {
+	display: none;
+	visibility: hidden;
+}
+.updating .gridgets-spinner-wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	visibility: visible;
+}
+.updating .gridgets-spinner-wrapper .spinner {
+	visibility: visible;
+}
+.gridgets_metafield img {
+	max-width: 100%;
+	height: auto;
+}
+.gridgets_metafield label {
+	font-weight: bold;
+	margin-bottom: 0.25em;
+	display: block;
+}
+#gridgets-before-content.widefat td {
+	vertical-align: middle;
+}
+input.gridget-name {
+	width: 100%;
+}
+.empty-row .dashicons-sort {
+	display: none;
+}
+.gridgets_metafield.gridgets_text_sidebar input[type="text"],
+.gridgets_metafield.gridgets_text_sidebar input[type="number"],
+.gridgets_metafield.gridgets_text_sidebar select {
+	width: 100%;
+	display: block;
+}
+.gridgets_text_sidebar {
+	clear: left;
+}
+.gridgets-background-image {
+	margin: 0.5em 0;
+}
+.meta-box-sortables .postbox {
+	overflow: hidden;
+}
+.gridgets-third {
+	float: left;
+	width: 31%;
+	padding-right: 2%;
+}
+.gridgets-half {
+	float: left;
+	width: 48%;
+	padding-right: 2%;
+}
+.gridgets-first {
+	clear: left;
+}
+.divider {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	background-color: #eee;
+	margin: 1em 0;
+}
+.divider:before,
+.divider:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+.divider:after {
+	clear: both;
+}
+.ctdb-outer-wrap {
+	margin-right: 300px;
+	padding: 0;
+}
+.ctdb-inner-wrap {
+	position: relative;
+	width: 100%;
+	min-width: 463px;
+	float: left;
+}
+.ctdb-banners {
+	float: right;
+	margin-right: -300px;
+	width: 280px;
+}
+.ctdb-banners img {
+	max-width: 100%;
+}
+.ctdb-banner {
+	margin-bottom: 1.5em;
+}
+@media only screen and (max-width: 850px) {
+	.ctdb-outer-wrap {
+		margin-right: 0;
+	}
+	.ctdb-inner-wrap {
+		position: relative;
+		width: 100%;
+		min-width: 0;
+		float: none;
+	}
+	.ctdb-banners {
+		float: none;
+		margin-right: 0;
+		width: 100%;
+	}
+	.ctdb-banner {
+		float: left;
+		margin-right: 20px;
+	}
+}
